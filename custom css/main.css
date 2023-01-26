@@ -1,0 +1,136 @@
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #FBD249; */
+}
+
+.center{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.d-flex {
+    flex-direction: column !important;
+}
+
+.form-box{
+    width: 50%;
+    background-color: #614F4B;
+    /* background: url("../images/snow.gif"); */
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form-box h1{
+    font-weight: 900;
+    font-size: 25px;
+    padding: 1rem 0;
+    font-family: cursive;
+    color: #fff;
+    /* color: #1FE2EC; */
+    /* color: #FBD249; */
+    /* color: #FBD249; */
+    /* color: #6B0134; */
+    /* color: #A52A2A; */
+}
+
+.form-box img{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+.f_row{
+    width: 100% !important;
+}
+
+.form-c, form{
+    width: 90% !important;
+}
+
+.form-c form select{
+    margin-bottom: 1rem;
+}
+
+.form-c form select option{
+    padding: 6rem !important;
+}
+
+.form-select{
+    padding: 0.6rem 2.25rem 0.6rem 0.75rem !important;
+    box-shadow: none !important;
+}
+
+.form-c form input[type="submit"]{
+    margin-top: 1rem;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #1FE2EC;
+    /* background-color: #A52A2A; */
+    color: #000;
+}
+.form-c form input[type="submit"]:hover{
+    background-color: #FBD249;
+    transition: 1s ease-in-out;
+
+}
+
+/* Mobile Phones */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .form-box{
+        width: 85% !important;
+    }
+
+    .form-c, form{
+        width: 100% !important;
+    }
+}
+
+
+/* Ipads and Tablet */
+@media (max-width: 768px) {
+    .form-box{
+        width: 85% !important;
+    }
+
+    .form-c, form{
+        width: 100% !important;
+    }
+}
+
+/* Small screen Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .form-box{
+        width: 70% !important;
+    }
+
+    .form-c, form{
+        width: 100% !important;
+    }
+}
+
+/* Desktop large screen */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+    
+    .form-box{
+        width: 85% !important;
+    }
+
+    .form-c, form{
+        width: 100% !important;
+    }
+
+    .p-5 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
