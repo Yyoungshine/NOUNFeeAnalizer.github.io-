@@ -1,0 +1,262 @@
+body{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    /* background-color: #FBD249; */
+}
+
+.center{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.d-flex {
+    flex-direction: column !important;
+}
+
+
+
+.form-box{
+    width: 50%;
+    background-color: #614F4B;
+    /* background: url("../images/snow.gif"); */
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+   
+}
+
+.form-box h1{
+    font-weight: 900;
+    font-size: 25px;
+    padding: 1rem 0;
+    font-family: cursive;
+    color: #fff;
+    /* color: #1FE2EC; */
+    /* color: #FBD249; */
+    /* color: #FBD249; */
+    /* color: #6B0134; */
+    /* color: #A52A2A; */
+}
+
+.form-box img, .table-box img{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+.f_row{
+    width: 100% !important;
+}
+
+.form-c, form{
+    width: 90% !important;
+}
+
+.form-c form select{
+    margin-bottom: 1rem;
+}
+
+.form-c form select option{
+    padding: 6rem !important;
+}
+
+.form-select{
+    padding: 0.6rem 2.25rem 0.6rem 0.75rem !important;
+    box-shadow: none !important;
+}
+
+.form-c form input[type="submit"]{
+    margin-top: 1rem;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #1FE2EC;
+    /* background-color: #A52A2A; */
+    color: #000;
+}
+.form-c form input[type="submit"]:hover{
+    background-color: #FBD249;
+    transition: 1s ease-in-out;
+
+}
+
+/* Table Styling */
+.table-box{
+
+}
+
+.table-box h1{
+    font-size: 20px;
+    padding: 1rem 0;
+    font-family: cursive;
+    font-weight: 600 !important;
+    color: #000;
+}
+
+.table-box img{
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-container{
+    /* width: 80%; */
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 1rem;
+    padding-left: .8rem !important;
+}
+
+.btn-container h5{
+    font-size: 14px;
+    padding: 0 !important;
+}
+
+.btn-container button{
+    margin: .5rem 0 1rem 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tableMainContainer{
+    /* width: 80%; */
+    margin: 0 auto;
+}
+.tableMainContainer table{
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+.tableMainContainer table tr:nth-child(even){
+    background-color: #fff !important;
+}
+.tableMainContainer table th{
+    padding: .8rem !important;
+    background-color: #1FE2EC;
+    font-weight: 500;
+}
+.tableMainContainer table td{
+    padding: .5rem !important;
+}
+.noBorder{
+    background-color: #fff;
+    padding: .9rem !important;
+    font-size: 22px;
+}
+
+.total{
+    background-color: #FBD249;
+    padding: .9rem !important;
+    font-size: 20px;
+}
+#totalAll{
+    background-color: #614F4B !important;
+    padding: .7rem !important;
+    font-size: 22px;
+}
+
+#totalAll td{
+    padding: 1rem !important;
+    color: #FBD249 !important;
+    font-size: 25px;
+}
+
+.back{
+    /* width: 80%; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: .8rem !important;
+}
+
+.back a{
+    text-decoration: none;
+    background-color: #1FE2EC;
+    color: #000;
+    display: block;
+    padding: .6rem 2rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.back a:hover{
+    background-color: #FBD249;
+    transition: 1s ease-in-out;
+}
+
+
+/* Mobile Phones */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .form-box{
+        width: 85% !important;
+    }
+
+    .form-c, form{
+        width: 100% !important;
+    }
+}
+
+
+/* Ipads and Tablet */
+@media (max-width: 768px) {
+    .form-box{
+        width: 85% !important;
+    }
+
+    .form-c, form{
+        width: 100% !important;
+    }
+
+    /* Table */
+    .back{
+        padding-right: 0rem !important;
+    }
+    .btn-container{
+        padding-left: 0rem !important;
+    }
+}
+
+/* Small screen Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .form-box{
+        width: 70% !important;
+    }
+
+    .form-c, form{
+        width: 100% !important;
+    }
+     /* Table */
+     .back{
+        padding-right: 0rem !important;
+    }
+    .btn-container{
+        padding-left: 0rem !important;
+    }
+}
+
+/* Desktop large screen */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+    
+    .form-box{
+        width: 85% !important;
+    }
+
+    .form-c, form{
+        width: 100% !important;
+    }
+
+    .p-5 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+     /* Table */
+     .back{
+        padding-right: 0rem !important;
+    }
+    .btn-container{
+        padding-left: 0rem !important;
+    }
+}
