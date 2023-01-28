@@ -142,8 +142,8 @@ body{
     font-size: 22px;
 }
 
-.total{
-    background-color: #1FE2EC;
+#total{
+    background-color: #1FE2EC !important;
     padding: .9rem !important;
     font-size: 20px;
 }
@@ -161,7 +161,7 @@ body{
 
 .back{
     /* width: 80%; */
-    margin: 0 auto;
+    margin-top: 2rem ;
     display: flex;
     justify-content: flex-end;
     padding-right: .8rem !important;
@@ -181,6 +181,28 @@ body{
     transition: 1s ease-in-out;
 }
 
+/* Data table */
+
+.data_table{
+    background: #fff;
+    /* padding: 15px; */
+    box-shadow: 1px 3px 5px #aaa;
+    border-radius: 5px;
+}
+
+.data_table .btn{
+    background-color: #000;
+    padding: 5px 10px;
+    max-width: 10px 3px 10px 0;
+}
+
+.col-12{
+    box-shadow: none !important;
+}
+
+table{
+    background-color: #fff;
+}
 
 /* Mobile Phones */
 @media (min-width: 320px) and (max-width: 480px) {
