@@ -181,6 +181,51 @@ body{
     transition: 1s ease-in-out;
 }
 
+.buttons-copy{
+    background-color: #6C757D !important;
+    margin-bottom: 1rem !important;
+    color: #fff !important;
+    border:  none !important;
+
+}
+.buttons-copy:hover{
+    background-color: #566370 !important;
+    border:  none !important;
+
+}
+
+.buttons-csv{
+    background-color: #0DCAF0 !important;
+    margin-bottom: 1rem !important;
+    border:  none !important;
+}
+
+.buttons-pdf{
+    background-color:#DC3545 !important;
+    margin-bottom: 1rem !important;
+    border:  none !important;
+
+}
+
+.buttons-print{
+    background-color: #FFC107 !important;
+    margin-bottom: 1rem !important;
+    border:  none !important;
+
+}
+
+.buttons-excel {
+    background-color: #198754 !important;
+    margin-bottom: 1rem !important;
+    color: #fff !important;
+    border:  none !important;
+  }
+
+.buttons-excel:hover {
+    background-color: #157247 !important;
+    border:  none !important;
+  }
+
 /* Data table */
 
 .data_table{
